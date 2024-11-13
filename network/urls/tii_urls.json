@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "serviceArea": "TII Services",
+        "serviceAreaDisplayName": "TII base",
+        "urls": [
+            "*tii.ae",
+            "*tii.org",
+            "tiiuae.sharepoint.com",
+            "tiiuae-my.sharepoint.com",
+            "access.clarivate.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "id": 2,
+        "serviceArea": "TII Services",
+        "serviceAreaDisplayName": "SAP and ERP",
+        "urls": [
+            "hcm22.sapsf.com",
+            "aderp.addigital.gov.ae",
+            "s1.mn1.ariba.com",
+            "tii.sourcing.mn1.ariba.com",
+            "a1c7ohabl.accounts.ondemand.com",
+            "flpnwc-ojffapwnic.dispatcher.ae1.hana.ondemand.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "id": 3,
+        "serviceArea": "TII Services",
+        "serviceAreaDisplayName": "Extra services",
+        "urls": [
+            "*.gravatar.com",
+            "*.atlassian.com",
+            "*.docusign.com"
+        ],
+        "category": "Allow",
+        "required": true
+    }
+]

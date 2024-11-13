@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "serviceArea": "Microsoft Services",
+        "serviceAreaDisplayName": "Microsoft 365",
+        "urls": [
+            "graph.microsoft.com",
+            "ocws.officeapps.live.com",
+            "microsoft365.com",
+            "consentreceiverfd-prod.azurefd.net",
+            "c.s-microsoft.com",
+            "js.monitor.azure.com",
+            "northcentralus0-mediap.svc.ms",
+            "*.bing.com",
+            "cdnjs.cloudfare.com",
+            "store-images.s-microsoft.com",
+            "www.office.com",
+            "res-1.cdn.office.net",
+            "secure.skypeassets.com",
+            "js.live.net",
+            "am3pap006files.storage.live.com",
+            "c7rr5q.am.files.1drv.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "id": 2,
+        "serviceArea": "Microsoft Services",
+        "serviceAreaDisplayName": "Teams",
+        "urls": [
+            "teams.live.com",
+            "*.teams.live.com",
+            "fpt.live.com",
+            "statics.teams.cdn.live.net",
+            "ipv6.login.live.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "id": 3,
+        "serviceArea": "Microsoft Services",
+        "serviceAreaDisplayName": "Outlook",
+        "urls": [
+            "outlook.live.com",
+            "csp.microsoft.com",
+            "arc.msn.com",
+            "www.msn.com",
+            "outlook.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "id": 4,
+        "serviceArea": "Microsoft Services",
+        "serviceAreaDisplayName": "Onedrive",
+        "urls": [
+            "1drv.ms",
+            "onedrive.live.com",
+            "p.sfx.ms",
+            "my.microsoftpersonalcontent.com",
+            "*.onedrive.com",
+            "cdn.onenote.net",
+            "wvcyna.db.files.1drv.com",
+            "*.storage.live.com",
+            "skyapi.onedrive.live.com",
+            "*.azure.com"
+        ],
+        "category": "Allow",
+        "required": true
+    },
+    {
+        "_comment": [
+            "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints?view=o365-worldwide#why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"
+        ],
+        "id": 5,
+        "serviceArea": "Microsoft Services",
+        "serviceAreaDisplayName": "Extra Urls",
+        "urls": [
+            "*.akadns.net",
+            "*.akam.net",
+            "*.akamai.com",
+            "*.akamai.net",
+            "*.akamaiedge.net",
+            "*.akamaihd.net",
+            "*.akamaized.net",
+            "*.edgekey.net",
+            "*.edgesuite.net",
+            "*.nsatc.net",
+            "*.exacttarget.com",
+            "*.azureedge.net"
+        ],
+        "category": "Allow",
+        "required": true
+    }
+]
