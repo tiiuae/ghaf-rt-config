@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "serviceArea": "SSRC Services",
+        "serviceAreaDisplayName": "Nix",
+        "urls": [
+            "*.cachix.org",
+            "vedenemo.dev",
+            "loki.ghaflogs.vedenemo.dev",
+            "ghaflogs.vedenemo.dev",
+            "himalia.vedenemo.dev"
+        ],
+        "category": "Allow",
+        "required": true
+    }
+]
