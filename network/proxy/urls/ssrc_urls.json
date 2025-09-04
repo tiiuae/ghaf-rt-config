@@ -1,17 +1,18 @@
 [
-    {
-        "id": 1,
-        "serviceArea": "SSRC Services",
-        "serviceAreaDisplayName": "Nix",
-        "urls": [
-            "*.cachix.org",
-            "vedenemo.dev",
-            "loki.ghaflogs.vedenemo.dev",
-            "ghaflogs.vedenemo.dev",
-            "himalia.vedenemo.dev",
-            "raw.githubusercontent.com"
-        ],
-        "category": "Allow",
-        "required": true
-    }
+  {
+    "id": 1,
+    "serviceArea": "SSRC Services",
+    "serviceAreaDisplayName": "Nix",
+    "urls": [
+      "*.cachix.org",
+      "vedenemo.dev",
+      "loki.ghaflogs.vedenemo.dev",
+      "ghaflogs.vedenemo.dev",
+      "himalia.vedenemo.dev",
+      "raw.githubusercontent.com",
+      "*.androidinthecloud.net"
+    ],
+    "category": "Allow",
+    "required": true
+  }
 ]
