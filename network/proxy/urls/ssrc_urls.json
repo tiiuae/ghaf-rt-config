@@ -9,7 +9,12 @@
       "loki.ghaflogs.vedenemo.dev",
       "ghaflogs.vedenemo.dev",
       "himalia.vedenemo.dev",
-      "raw.githubusercontent.com"
+      "raw.githubusercontent.com",
+      "whatismyipaddress.com",
+      "ds6.probe.whatismyipaddress.com",
+      "www.whatismyip.com",
+      "api.whatismyip.com"
+
     ],
     "category": "Allow",
     "required": true
@@ -27,5 +32,42 @@
     ],
     "category": "Allow",
     "required": true
+},
+{
+  "id": 3,
+  "serviceArea": "SSRC Services",
+  "serviceAreaDisplayName": "News",
+  "urls": [
+    "*.thenationalnews.com",
+    "thenationalnews.com",
+    "*.queryly.com",
+    "*.jwplayer.com",
+    "*.jwpcdn.com",
+    "*.jwpsrv.com",
+    "*.gateway.dev",
+    "*.youtube-nocookie.com",
+    "*.googlevideo.com",
+    "*.ytimg.com",
+    "*.arcpublishing.com",
+    "*.cnn.com",
+    "*.cnn.io",
+    "cnn.com",
+    "*.piano.io",
+    "cdn.jsdelivr.net",
+    "accounts.google.com",
+    "*.turner.com",
+    "*.discomax.com",
+    "tunein.cdnstream1.com",
+    "bbc.com",
+    "*.bbc.com",
+    "bbc.co.uk",
+    "*.bbci.co.uk",
+    "*.bbc.co.uk",
+    "*.gstatic.com",
+    "*.uri.sh",
+    "*.flourish.studio"
+  ],
+  "category": "Allow",
+  "required": true
 }
 ]
