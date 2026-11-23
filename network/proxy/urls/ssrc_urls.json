@@ -25,6 +25,9 @@
     "serviceAreaDisplayName": "Gala Android in the Cloud",
     "urls": [
       "*.androidinthecloud.net",
+      "shareduaen.uaen.attest.azure.net",
+      "tile.openstreetmap.org",
+      "nominatim.openstreetmap.org",
       "www.google.com",
       "*.googleapis.com",
       "*.googletabmanager.com",
